@@ -1,0 +1,148 @@
+/*reset*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+body {
+  color: #fff;
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  max-width: 1500px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: .5em;
+}
+
+container {
+  color: #fff;
+  text-align: center;
+}
+
+small {
+  color: #fff;
+  margin: 
+}
+
+.body {
+  color: #fff;
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+
+.instructions {
+  color: #fff;
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+
+.links {
+  background-color: #c67f08;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+
+p {
+  color: #fff;
+  margin: 15px auto 25px auto;
+}
+
+h3 {
+  color: #ede832;
+  font-family: "reflex-pro-variable", sans-serif;  
+  font-variation-settings: 'wdth' 150, 'wght' 400, 'ital' 9;
+  font-size: 1.5em;
+  line-height: 1.75em;
+  letter-spacing: .1em;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+  margin: 25px auto 25px auto;
+}
+
+a, a:visited {
+  color: #ede832;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #ede832;
+  text-decoration: none;
+}
+
+button {
+  font-family: "reflex-pro-variable", sans-serif;
+  font-variation-settings: "ital" 9, "wght" 400, "wdth" 150;
+  display: inline-block;
+  padding: .5em 3em;
+  margin: .15em 0em;
+  font-size: 1.5em;
+  line-height: 1.75em;
+  letter-spacing: .1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d7a014;
+  border: none;
+  border-radius: 5px;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+button:active {
+  background-color: #d7a014;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+  transform: translateY(4px);
+}
+
+input[type=text], textarea {
+    background-color: #b17107;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding: .1em;
+    margin: .2em;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #fff;
+    border-radius: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+input:focus {  
+    outline-color: #ede832 !important;
+}
+
+textarea:focus {  
+    outline-color: #ede832 !important;
+}
+
+table, tr, td {
+  line-height: 1.5em;
+  padding: 5px 15px;
+}
+
+@media only screen and (min-width: 1366px) {
+body {
+  padding-top: 2em;
+  padding-bottom: 5em;
+  padding-left: 20em;
+} 
+button { 
+  font-size: 2em;
+  line-height: 2.25em;
+} }
