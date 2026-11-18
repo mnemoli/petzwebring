@@ -1,203 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script language = "javascript"> 
-  var sites = [
-  ["The Rat Shack","ratshack","https://ratshack.neocities.org/text/petz/petzcorner.html"],
-  ["Canis Coyote Kennelz", "caniscoyote", "https://caniscoyotekennelz.weebly.com"],
-  ["Swallowtail", "swallowtail", "https://silverfish-swallowtail.weebly.com"],
-  ["CRUSHING", "crush", "https://crushing.neocities.org"],
-  ["Wayback Petz", "wayback", "http://waybackpetz.com"],
-  ["Pawzative Attitude", "pawzative", "http://pa.waybackpetz.com"],
-  ["Litterz Factory", "litterz", "https://homebody.eu/lf"],
-  ["Macaron Kennels and Cattery", "macaron", "https://macaronkc.weebly.com"],
-  ["Epiphany", "epiphany", "https://epiphany.punkfairie.net/"],
-  ["Cargo", "cargo", "https://cargo-petz.neocities.org"],
-  ["Down the Rabbit Hole", "dtrh", "https://dtrh.neocities.org"],
-  ["Get Lucky",  "lucky", "http://petz-getlucky.weebly.com"],
-  ["Thornton Hall", "thornton", "https://thorntonhall.weebly.com"],
-  ["Moon Lake", "moonlake", "https://moonlakepetz.weebly.com"],
-  ["Waverly Academy", "waverly", "https://waverlyacademypetz.weebly.com"],
-  ["Oasis", "oasis", "https://oasis.fantazzled.com"],
-  ["Powerhouse", "powerhouse", "http://commander.bravesites.com"],
-  ["Harvest Petz", "harvest", "https://harvestpetz.neocities.org"],
-  ["Acid Trip", "acidtrip", "http://kutheraver.com/acidtrip"],
-  ["P.F. Cinema", "cinema", "https://kutheraver.com/pfcinema"],
-  ["Cookie Planet", "cookie", "https://cookie-planet.neocities.org"],
-  ["Hero Petz", "hero", "https://heropetz.glitch.me"],
-  ["Mazzlabs", "mazz", "https://mazzew.neocities.org"],
-  ["Petzscape", "petzcape", "https://gildedware.neocities.org/petzcape"],
-  ["Filthy Hippie", "hippie", "https://petz.filthyhippie.net"],
-  ["Elfland Woods", "elfland", "http://www.wintersprite.net/elflandwoods"],
-  ["Maniacal Menagerie", "catgrey", "https://thecatingrey.neocities.org"],
-  ["Pink Sneeze", "pinksneeze", "https://pinksneeze.neocities.org"],
-  ["Abby's Petz Society", "abbyspetz", "https://www.dreamtyme.org/abbyspetz"],
-  ["Medusa", "medusa", "https://www.medusa.fantazzled.com"],
-  ["Thor's Petz", "thor", "https://thorzpetz.neocities.org"],
-  ["Fractal", "fractalz", "https://fractalz.neocities.org"],
-  ["Flowsnake", "flowsnake", "https://flowsnake.neocities.org"],
-  ["Petz Grab Bag Subscription Service", "grabbag", "https://petzgrabbagsubs.neocities.org"],
-  ["Mutt'z Petz", "mutt", "https://muttthecowcat.neocities.org/petz"],
-  ["Milopetz", "milo", "https://milopetz.neocities.org"],
-  ["Stanley Petz", "stanley", "https://stanleypetz.neocities.org"],
-  ["Petz Deco", "deco", "https://www.dreamtyme.org/petzdeco"],
-  ["Petz Breeds Directory", "breeddirectory", "https://www.dreamtyme.org/breeds-directory"],
-  ["The Petz Warehouse", "warehouse", "https://www.dreamtyme.org/tpw"],
-  ["NightShade's", "nightshades", "http://nightshadespetz.weebly.com"],
-  ["Toesocks", "toesocks", "https://www.toesocks.cuddle-fish.net"],
-  ["Stardust & Cat Toyz", "stardust", "https://niconickystar.wixsite.com/stardustandcattoyz"],
-  ["Hydrargyry Kennelz", "hydra", "https://hydrargyrykennelz.neocities.org"],
-  ["Toxoplasicity", "toxo", "https://toxoplasicity.neocities.org/petz/home"],
-  ["Tanglewood", "tanglewood", "https://tanglewood.neocities.org"],
-  ["ForestPetz", "forestwalk", "https://forestpetz.neocities.org"],
-  ["Alive Enough", "aliveenough", "https://oodlecat.meowandsparkle.party/"],
-  ["Phantasmagoria", "phantasmagoria", "https://phantasmagoriapetz.neocities.org/"],
-  ["Korvulpine", "korvulpine", "https://shenzaibird.neocities.org/z/Petz/"],
-  ["Canis Major", "shortbread", "https://shortbread-kc.tumblr.com"],
-  ["Warrior Petz", "warrior", "https://warriorpetz.neocities.org"],
-  ["Stancy McKatt's Petz", "stancy", "https://smpetz.neocities.org"],
-  ["Chimes", "chimes", "https://homebody.eu/chimes"],
-  ["Amenity", "amenity", "http://www.fyrefly.org/petz"],
-  ["Hollow Kingdom", "hollow", "https://hollowkingdom.neocities.org"],
-  ["Teardrop", "teardrop", "https://teardrop.silk-serif.com"],
-  ["Woodside Petz", "woodside", "https://woodside-petz.neocities.org"],
-  ["Cali Morgan", "calimorgan", "https://heart-flurries.net/cali/index.php"],
-  ["Rhat's Petz Page", "rhat", "https://rhat.neocities.org/petz"],
-  ["Tabbloza Kennels and Cattery", "tabbzi", "https://tabbloza.com/petz"],
-  ["Duke's Group Kennel Club", "dukes", "https://dukesgroupkc.neocities.org"],
-  ["Dreamcasters", "dreamcasters", "https://dreamcasters.neocities.org"],
-  ["Wet-ware", "wetware", "https://wet-ware.neocities.org/petz"],
-  ["Clover's Petz Zone", "clover", "https://clovercat12-petz.neocities.org"],
-  ["Petzcadia", "petzcadia", "https://thegreenroom.neocities.org/petzcadia/i"],
-  ["Beefy'z Beasts", "beefy", "https://beefyzbeasts.neocities.org"],
-  ["Cat Petterz Central", "petterz", "https://catpetterzcentral.neocities.org"],
-  ["Distorted Artefacts' Petz Zone", "distorted", "https://distorted-artefacts-petz-zone.neocities.org"],
-  ["Tiny Hands House", "tinyhands", "https://tiny-hands-house.neocities.org"],
-  ["Krunchez", "krunchez", "https://krunchez.filthyhippie.net"],
-  ["moth / blox cattery", "moth", "https://mothbloxcattery.neocities.org"],
-  ["Xenon Starz", "xenon", "https://hauntedgalaxy.nekoweb.org"],
-  ["Just Dandy", "dandy", "https://lukkypenniedal.wixsite.com/justdandypetz"],
-  ["kamome", "kamome", "https://kamome.pet"],
-  ["PaschaBunny's Petz", "pascha", "https://paschabunny.neocities.org/petz"],
-  ["December", "december", "https://december.petzmainstreet.com"],
-  ["Midnight", "midnight", "https://kel.rainbow-muffin.org"],
-  ["Flamboyance", "flamboyance", "https://flamboyance.neocities.org"],
-  ["Pocketville Kennels", "pocketville", "https://silversneasel.neocities.org/petz/main"]
-];
 
-var url = window.location.href
-var urlParams = new URLSearchParams(window.location.search)
-var sitecode = urlParams.get('site')
-var direction = urlParams.get('direction')
-var newurl
+<head>
+  <script language="javascript">
+    var sites = [
+      ["The Rat Shack", "ratshack", "https://ratshack.neocities.org/text/petz/petzcorner.html"],
+      ["Canis Coyote Kennelz", "caniscoyote", "https://caniscoyotekennelz.weebly.com"],
+      ["Swallowtail", "swallowtail", "https://silverfish-swallowtail.weebly.com"],
+      ["CRUSHING", "crush", "https://crushing.neocities.org"],
+      ["Wayback Petz", "wayback", "http://waybackpetz.com"],
+      ["Pawzative Attitude", "pawzative", "http://pa.waybackpetz.com"],
+      ["Litterz Factory", "litterz", "https://homebody.eu/lf"],
+      ["Macaron Kennels and Cattery", "macaron", "https://macaronkc.weebly.com"],
+      ["Epiphany", "epiphany", "https://epiphany.punkfairie.net/"],
+      ["Cargo", "cargo", "https://cargo-petz.neocities.org"],
+      ["Down the Rabbit Hole", "dtrh", "https://dtrh.neocities.org"],
+      ["Get Lucky", "lucky", "http://petz-getlucky.weebly.com"],
+      ["Thornton Hall", "thornton", "https://thorntonhall.weebly.com"],
+      ["Moon Lake", "moonlake", "https://moonlakepetz.weebly.com"],
+      ["Waverly Academy", "waverly", "https://waverlyacademypetz.weebly.com"],
+      ["Oasis", "oasis", "https://oasis.fantazzled.com"],
+      ["Powerhouse", "powerhouse", "http://commander.bravesites.com"],
+      ["Harvest Petz", "harvest", "https://harvestpetz.neocities.org"],
+      ["Acid Trip", "acidtrip", "http://kutheraver.com/acidtrip"],
+      ["P.F. Cinema", "cinema", "https://kutheraver.com/pfcinema"],
+      ["Cookie Planet", "cookie", "https://cookie-planet.neocities.org"],
+      ["Hero Petz", "hero", "https://heropetz.glitch.me"],
+      ["Mazzlabs", "mazz", "https://mazzew.neocities.org"],
+      ["Petzscape", "petzcape", "https://gildedware.neocities.org/petzcape"],
+      ["Filthy Hippie", "hippie", "https://petz.filthyhippie.net"],
+      ["Elfland Woods", "elfland", "http://www.wintersprite.net/elflandwoods"],
+      ["Maniacal Menagerie", "catgrey", "https://thecatingrey.neocities.org"],
+      ["Pink Sneeze", "pinksneeze", "https://pinksneeze.neocities.org"],
+      ["Abby's Petz Society", "abbyspetz", "https://www.dreamtyme.org/abbyspetz"],
+      ["Medusa", "medusa", "https://www.medusa.fantazzled.com"],
+      ["Thor's Petz", "thor", "https://thorzpetz.neocities.org"],
+      ["Fractal", "fractalz", "https://fractalz.neocities.org"],
+      ["Flowsnake", "flowsnake", "https://flowsnake.neocities.org"],
+      ["Petz Grab Bag Subscription Service", "grabbag", "https://petzgrabbagsubs.neocities.org"],
+      ["Mutt'z Petz", "mutt", "https://muttthecowcat.neocities.org/petz"],
+      ["Milopetz", "milo", "https://milopetz.neocities.org"],
+      ["Stanley Petz", "stanley", "https://stanleypetz.neocities.org"],
+      ["Petz Deco", "deco", "https://www.dreamtyme.org/petzdeco"],
+      ["Petz Breeds Directory", "breeddirectory", "https://www.dreamtyme.org/breeds-directory"],
+      ["The Petz Warehouse", "warehouse", "https://www.dreamtyme.org/tpw"],
+      ["NightShade's", "nightshades", "http://nightshadespetz.weebly.com"],
+      ["Toesocks", "toesocks", "https://www.toesocks.cuddle-fish.net"],
+      ["Stardust & Cat Toyz", "stardust", "https://niconickystar.wixsite.com/stardustandcattoyz"],
+      ["Hydrargyry Kennelz", "hydra", "https://hydrargyrykennelz.neocities.org"],
+      ["Toxoplasicity", "toxo", "https://toxoplasicity.neocities.org/petz/home"],
+      ["Tanglewood", "tanglewood", "https://tanglewood.neocities.org"],
+      ["ForestPetz", "forestwalk", "https://forestpetz.neocities.org"],
+      ["Alive Enough", "aliveenough", "https://oodlecat.meowandsparkle.party/"],
+      ["Phantasmagoria", "phantasmagoria", "https://phantasmagoriapetz.neocities.org/"],
+      ["Korvulpine", "korvulpine", "https://shenzaibird.neocities.org/z/Petz/"],
+      ["Canis Major", "shortbread", "https://shortbread-kc.tumblr.com"],
+      ["Warrior Petz", "warrior", "https://warriorpetz.neocities.org"],
+      ["Stancy McKatt's Petz", "stancy", "https://smpetz.neocities.org"],
+      ["Chimes", "chimes", "https://homebody.eu/chimes"],
+      ["Amenity", "amenity", "http://www.fyrefly.org/petz"],
+      ["Hollow Kingdom", "hollow", "https://hollowkingdom.neocities.org"],
+      ["Teardrop", "teardrop", "https://teardrop.silk-serif.com"],
+      ["Woodside Petz", "woodside", "https://woodside-petz.neocities.org"],
+      ["Cali Morgan", "calimorgan", "https://heart-flurries.net/cali/index.php"],
+      ["Rhat's Petz Page", "rhat", "https://rhat.neocities.org/petz"],
+      ["Tabbloza Kennels and Cattery", "tabbzi", "https://tabbloza.com/petz"],
+      ["Duke's Group Kennel Club", "dukes", "https://dukesgroupkc.neocities.org"],
+      ["Dreamcasters", "dreamcasters", "https://dreamcasters.neocities.org"],
+      ["Wet-ware", "wetware", "https://wet-ware.neocities.org/petz"],
+      ["Clover's Petz Zone", "clover", "https://clovercat12-petz.neocities.org"],
+      ["Petzcadia", "petzcadia", "https://thegreenroom.neocities.org/petzcadia/i"],
+      ["Beefy'z Beasts", "beefy", "https://beefyzbeasts.neocities.org"],
+      ["Cat Petterz Central", "petterz", "https://catpetterzcentral.neocities.org"],
+      ["Distorted Artefacts' Petz Zone", "distorted", "https://distorted-artefacts-petz-zone.neocities.org"],
+      ["Tiny Hands House", "tinyhands", "https://tiny-hands-house.neocities.org"],
+      ["Krunchez", "krunchez", "https://krunchez.filthyhippie.net"],
+      ["moth / blox cattery", "moth", "https://mothbloxcattery.neocities.org"],
+      ["Xenon Starz", "xenon", "https://hauntedgalaxy.nekoweb.org"],
+      ["Just Dandy", "dandy", "https://lukkypenniedal.wixsite.com/justdandypetz"],
+      ["kamome", "kamome", "https://kamome.pet"],
+      ["PaschaBunny's Petz", "pascha", "https://paschabunny.neocities.org/petz"],
+      ["December", "december", "https://december.petzmainstreet.com"],
+      ["Midnight", "midnight", "https://kel.rainbow-muffin.org"],
+      ["Flamboyance", "flamboyance", "https://flamboyance.neocities.org"],
+      ["Pocketville Kennels", "pocketville", "https://silversneasel.neocities.org/petz/main"],
+      ["Kagarori", "kagarori", "https://cetaminophen.nekoweb.org/kagarori.html"],
+      ["SeaGlass Crittery", "seaglass", "https://seaglass-crittery.neocities.org/"]
+    ];
 
-if (direction == "next" || direction == "prev"){
-  for (var i=0; i<sites.length; i++){
-     if (sites[i][1] == sitecode){
-        if (direction =="next"){
-          newurl = (i+1)%(sites.length);
-          window.location.replace(sites[newurl][2])
-          break;
-        } else {
-          newurl = (i+sites.length-1)%(sites.length);
-          window.location.replace(sites[newurl][2])
-          break;
+    var url = window.location.href
+    var urlParams = new URLSearchParams(window.location.search)
+    var sitecode = urlParams.get('site')
+    var direction = urlParams.get('direction')
+    var newurl
+
+    if (direction == "next" || direction == "prev") {
+      for (var i = 0; i < sites.length; i++) {
+        if (sites[i][1] == sitecode) {
+          if (direction == "next") {
+            newurl = (i + 1) % (sites.length);
+            window.location.replace(sites[newurl][2])
+            break;
+          } else {
+            newurl = (i + sites.length - 1) % (sites.length);
+            window.location.replace(sites[newurl][2])
+            break;
+          }
         }
-     }
-  }
-}
-else if (direction == "random") {
-  var rand = Math.floor(Math.random() * sites.length);
-  window.location.replace(sites[rand][2])
-}
+      }
+    }
+    else if (direction == "random") {
+      var rand = Math.floor(Math.random() * sites.length);
+      window.location.replace(sites[rand][2])
+    }
   </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petz Community Webring</title>
-<link rel="icon" 
-      type="image/png" 
-      href="./favicon.png">
-<link rel="stylesheet" href="https://use.typekit.net/kgk1nts.css">
-<link rel="stylesheet" href="./style.css">
-<style>
-  td {
-    border-bottom:  0px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petz Community Webring</title>
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" href="https://use.typekit.net/kgk1nts.css">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    td {
+      border-bottom: 0px;
+    }
+  </style>
 </head>
-  <body>
-<main class="container">
-  <div id="body">
+
+<body>
+  <main class="container">
+    <div id="body">
       <img src="./petz-community-webring-banner.png">
       <section>
         <h3>What is this?</h3>
         <p>The Petz Community Webring links together a group of sites for the P.F. Magic Petz games.</p>
-        <p>These can be crew sites, hex archives, modding sites or more as long as they have Petz-related content! You can apply to join the webring below.</p>
+        <p>These can be crew sites, hex archives, modding sites or more as long as they have Petz-related content! You
+          can apply to join the webring below.</p>
       </section>
       <img src="./breakleft.png">
       <section>
         <h3>Webring sites</h3>
-      <div id="links"><p>Javascript must be enabled!</p>
-      </div>
-      <br/>
-      <div id="instructions"><button onclick="showcode()">Add your site</button></div>
-      <table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0"><tr><td style="text-align:center;"><a href="?site=ratshack&direction=prev">Prev<br>&lt;&lt;</a></td><td style="text-align:center;"><a href="#"><img style="align-self: center;" src="./banner.gif" alt="Petz Webring"></a><br/></td><td style="text-align:center;"><a href="?site=ratshack&direction=next">Next<br>&gt;&gt;</a></td></tr><tr><td style="padding-top: 0px; text-align:center;"/><td style="padding-top: 0px; text-align:center;"><a href="?direction=random">&lt;&lt; Random &gt;&gt;</a></td><td style="padding-top: 0px; text-align:center;"/></tr></table>
-    </section>
-    <section>
-      <small>Banners by <a href="https://crushing.neocities.org/petz/index.html">CRUSH</a></small>
-    </section>
-    <img src="./breakright.png">
-</div>
-</main>
-<script>
-var linksdiv = document.getElementById("links");
-linksdiv.innerHTML ="";
-var list = document.createElement('div');
+        <div id="links">
+          <p>Javascript must be enabled!</p>
+        </div>
+        <br />
+        <div id="instructions"><button onclick="showcode()">Add your site</button></div>
+        <table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0">
+          <tr>
+            <td style="text-align:center;"><a href="?site=ratshack&direction=prev">Prev<br>&lt;&lt;</a></td>
+            <td style="text-align:center;"><a href="#"><img style="align-self: center;" src="./banner.gif"
+                  alt="Petz Webring"></a><br /></td>
+            <td style="text-align:center;"><a href="?site=ratshack&direction=next">Next<br>&gt;&gt;</a></td>
+          </tr>
+          <tr>
+            <td style="padding-top: 0px; text-align:center;" />
+            <td style="padding-top: 0px; text-align:center;"><a href="?direction=random">&lt;&lt; Random &gt;&gt;</a>
+            </td>
+            <td style="padding-top: 0px; text-align:center;" />
+          </tr>
+        </table>
+      </section>
+      <section>
+        <small>Banners by <a href="https://crushing.neocities.org/petz/index.html">CRUSH</a></small>
+      </section>
+      <img src="./breakright.png">
+    </div>
+  </main>
+  <script>
+    var linksdiv = document.getElementById("links");
+    linksdiv.innerHTML = "";
+    var list = document.createElement('div');
 
-for (var i=0; i<sites.length; i++){
-  var item = document.createElement('div');
-  
-  var a = document.createElement('a');
-  var linkText = document.createTextNode(sites[i][0]);
-  a.appendChild(linkText);
-  a.style = 'padding-right: 50px;'
-  a.href = sites[i][2]; 
-  item.appendChild(a);  
-  item.id = sites[i][1];
+    for (var i = 0; i < sites.length; i++) {
+      var item = document.createElement('div');
 
-  list.appendChild(item);
-}
-linksdiv.appendChild(list);     
+      var a = document.createElement('a');
+      var linkText = document.createTextNode(sites[i][0]);
+      a.appendChild(linkText);
+      a.style = 'padding-right: 50px;'
+      a.href = sites[i][2];
+      item.appendChild(a);
+      item.id = sites[i][1];
 
-function showcode(){
+      list.appendChild(item);
+    }
+    linksdiv.appendChild(list);
 
-  var instdiv = document.getElementById("instructions");
-  instdiv.innerHTML='To be added to the Petz Community Webring:<br><ul><li>Post your website name and address on the <a href="https://discord.gg/WDCvd5F9X8">Petz Community Webring Discord</a> or start a PR on <a href="https://github.com/mnemoli/petzwebring">Github</a>.</li><li>Wait for your site to be added to the list above.</li><li>Copy one of the code blocks next to your website link (choose between static and animated banner) and paste it into your site\'s html wherever you want the webring widget to appear. (Feel free to add further styling to it as long as you keep the links and banner.)</li><li>That\'s it!</li>'
-    
-  for (var i=0; i<sites.length; i++){
-    var lnk = document.getElementById(sites[i][1]);
-    var inpbox = document.createElement("input");
-    var inpbox2 = document.createElement("input");
-    inpbox.setAttribute("size","1");
-    inpbox.setAttribute("type", "text");
-    inpbox.setAttribute("value", '<table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0"><tr><td style="text-align:center;"><a href="'+url+'?site='+sites[i][1]+'&direction=prev">Prev<br>&lt;&lt;</a></td><td style="text-align:center;"><a href="'+url+'"><img src="'+url+'banner.png" alt="Petz Webring"></a><br/></td><td style="text-align:center;"><a href="'+url+'?site='+sites[i][1]+'&direction=next">Next<br>&gt;&gt;</a></td></tr><tr><td style="padding-top: 0px; text-align:center;"/><td style="padding-top: 0px; text-align:center;"><a href="'+url+'?direction=random">&lt;&lt; Random &gt;&gt;</a></td><td style="padding-top: 0px; text-align:center;"/></tr></table>');
-    inpbox.setAttribute("onclick", 'this.select();');
-    inpbox.style.marginLeft = "10px";
-    lnk.appendChild(inpbox);
-    inpbox2.setAttribute("size","1");
-    inpbox2.setAttribute("type", "text");
-    inpbox2.setAttribute("value", '<table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0"><tr><td style="text-align:center;"><a href="'+url+'?site='+sites[i][1]+'&direction=prev">Prev<br>&lt;&lt;</a></td><td style="text-align:center;"><a href="'+url+'"><img src="'+url+'banner.gif" alt="Petz Webring"></a><br/></td><td style="text-align:center;"><a href="'+url+'?site='+sites[i][1]+'&direction=next">Next<br>&gt;&gt;</a></td></tr><tr><td style="padding-top: 0px; text-align:center;"/><td style="padding-top: 0px; text-align:center;"><a href="'+url+'?direction=random">&lt;&lt; Random &gt;&gt;</a></td><td style="padding-top: 0px; text-align:center;"/></tr></table>');
-    inpbox2.setAttribute("onclick", 'this.select();');
-    inpbox2.style.marginLeft = "10px";
-    lnk.appendChild(inpbox2);
-  }
-  var inputs = document.getElementsByTagName('input');
-  for (var i=0; i<inputs.length; i++){
-    inputs[i].style.visibility = "visible";
-    inputs[i].size = 20;
-    inputs[i].style = 'width:auto';
-  }  
-}
-</script>
-  </body>
+    function showcode() {
+
+      var instdiv = document.getElementById("instructions");
+      instdiv.innerHTML = 'To be added to the Petz Community Webring:<br><ul><li>Post your website name and address on the <a href="https://discord.gg/WDCvd5F9X8">Petz Community Webring Discord</a> or start a PR on <a href="https://github.com/mnemoli/petzwebring">Github</a>.</li><li>Wait for your site to be added to the list above.</li><li>Copy one of the code blocks next to your website link (choose between static and animated banner) and paste it into your site\'s html wherever you want the webring widget to appear. (Feel free to add further styling to it as long as you keep the links and banner.)</li><li>That\'s it!</li>'
+
+      for (var i = 0; i < sites.length; i++) {
+        var lnk = document.getElementById(sites[i][1]);
+        var inpbox = document.createElement("input");
+        var inpbox2 = document.createElement("input");
+        inpbox.setAttribute("size", "1");
+        inpbox.setAttribute("type", "text");
+        inpbox.setAttribute("value", '<table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0"><tr><td style="text-align:center;"><a href="' + url + '?site=' + sites[i][1] + '&direction=prev">Prev<br>&lt;&lt;</a></td><td style="text-align:center;"><a href="' + url + '"><img src="' + url + 'banner.png" alt="Petz Webring"></a><br/></td><td style="text-align:center;"><a href="' + url + '?site=' + sites[i][1] + '&direction=next">Next<br>&gt;&gt;</a></td></tr><tr><td style="padding-top: 0px; text-align:center;"/><td style="padding-top: 0px; text-align:center;"><a href="' + url + '?direction=random">&lt;&lt; Random &gt;&gt;</a></td><td style="padding-top: 0px; text-align:center;"/></tr></table>');
+        inpbox.setAttribute("onclick", 'this.select();');
+        inpbox.style.marginLeft = "10px";
+        lnk.appendChild(inpbox);
+        inpbox2.setAttribute("size", "1");
+        inpbox2.setAttribute("type", "text");
+        inpbox2.setAttribute("value", '<table style="text-align:center; width: auto; font-size:12px" border="0" cellspacing="0"><tr><td style="text-align:center;"><a href="' + url + '?site=' + sites[i][1] + '&direction=prev">Prev<br>&lt;&lt;</a></td><td style="text-align:center;"><a href="' + url + '"><img src="' + url + 'banner.gif" alt="Petz Webring"></a><br/></td><td style="text-align:center;"><a href="' + url + '?site=' + sites[i][1] + '&direction=next">Next<br>&gt;&gt;</a></td></tr><tr><td style="padding-top: 0px; text-align:center;"/><td style="padding-top: 0px; text-align:center;"><a href="' + url + '?direction=random">&lt;&lt; Random &gt;&gt;</a></td><td style="padding-top: 0px; text-align:center;"/></tr></table>');
+        inpbox2.setAttribute("onclick", 'this.select();');
+        inpbox2.style.marginLeft = "10px";
+        lnk.appendChild(inpbox2);
+      }
+      var inputs = document.getElementsByTagName('input');
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].style.visibility = "visible";
+        inputs[i].size = 20;
+        inputs[i].style = 'width:auto';
+      }
+    }
+  </script>
+</body>
+
 </html>
