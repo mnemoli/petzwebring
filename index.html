@@ -161,7 +161,10 @@
         </table>
       </section>
       <section>
-        <small>Banners by <a href="https://crushing.neocities.org/petz/index.html">CRUSH</a></small>
+        <small>This webring was originally created by Prism@<a
+            href="https://ratshack.neocities.org/text/petz/petzcorner">The Rat Shack</a>. It is currently maintained by
+          skissors@<a href="https://yaps.oodlecat.com/">YAPS</a>.</small><br>
+        <small>Banners by <a href="https://crush-ing.github.io/petz.html">CRUSH</a></small>
       </section>
       <img src="./breakright.png">
     </div>
@@ -189,7 +192,12 @@
     function showcode() {
 
       var instdiv = document.getElementById("instructions");
-      instdiv.innerHTML = 'To be added to the Petz Community Webring:<br><ul><li>Post your website name and address on the <a href="https://discord.gg/WDCvd5F9X8">Petz Community Webring Discord</a> or start a PR on <a href="https://github.com/mnemoli/petzwebring">Github</a>.</li><li>Wait for your site to be added to the list above.</li><li>Copy one of the code blocks next to your website link (choose between static and animated banner) and paste it into your site\'s html wherever you want the webring widget to appear. (Feel free to add further styling to it as long as you keep the links and banner.)</li><li>That\'s it!</li>'
+      instdiv.innerHTML = `To be added to the Petz Community Webring:<br>
+        <ul>
+          <li>Join <a href="https://discord.gg/6z8fHScAfU">skissors' petz projects Discord</a> and post your website name and address in the "webring-submissions" channel or start a PR on 
+            <a href="https://github.com/mnemoli/petzwebring">Github</a>.</li><li>Wait for your site to be added to the list above.</li>
+          <li>Copy one of the code blocks next to your website link (choose between static and animated banner) and paste it into your site\'s html wherever you want the webring widget to appear. (Feel free to add further styling to it as long as you keep the links and banner.)</li>
+          <li>That's it!</li>`
 
       for (var i = 0; i < sites.length; i++) {
         var lnk = document.getElementById(sites[i][1]);
